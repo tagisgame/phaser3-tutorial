@@ -1,0 +1,20 @@
+{
+  "name": "phaser3-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "phaser": "^3.22.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "watch": "rollup --watch --config rollup.config.js"
+  }
+}
